@@ -11,6 +11,7 @@ public class BrowserLaunchTest {
 
         driver.get("https://www.google.com/");  // will open the link
         driver.manage().window().maximize(); // will maximize the window
+        System.out.println(driver.getTitle()); //this will print the title of the page
 
         driver.quit(); //will close the browser
 
